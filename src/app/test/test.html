@@ -1,1 +1,9 @@
-<p>test works!</p>
+<div>
+    <ul>
+        @for(list of userList; track list.id){
+            <li>
+                {{list.username}} - {{list.email}}
+            </li>
+        }
+    </ul>
+</div>
